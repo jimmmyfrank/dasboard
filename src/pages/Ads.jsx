@@ -45,7 +45,7 @@ export default function Ads() {
   const getImageUrl = (path) => {
     if (!path) return null;
     if (path.startsWith('/uploads')) {
-      return `http://localhost:5002${path}`;
+      return `https://app-f57c4746-3838-4314-8c7e-de2713c61ef2.cleverapps.io${path}`;
     }
     return path;
   };
